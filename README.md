@@ -1,9 +1,9 @@
-# Rent A Car Otomasyon Sistemi 🚗
+# Rent A Car Yönetim Sistemi 🚗
 
-Java ile geliştirilmiş, konsol tabanlı bir araç kiralama otomasyonudur. Bu proje, Nesne Yönelimli Programlama (OOP) prensiplerini, veri yapılarını ve temiz kod (Clean Code) standartlarını pratik etmek amacıyla geliştirilmiştir.
+Java ile geliştirilmiş, konsol tabanlı bir araç kiralama yönetim sistemidir. Bu proje, Nesne Yönelimli Programlama (OOP) prensiplerini, veri yapılarını ve temiz kod (Clean Code) standartlarını pratik etmek amacıyla geliştirilmiştir.
 
 ## 📌 Özellikler
-- **Dinamik Araç Yönetimi:** Otomobil, Ticari Araç ve  farklı araç tipleri için özel fiyatlandırma algoritmaları (Polymorphism).
+- **Dinamik Araç Yönetimi:** Otomobil ve Ticari Araç farklı araç tipleri için özel fiyatlandırma algoritmaları (Polymorphism).
 - **Durum Takibi (State Management):** Araçların Müsait, Kirada veya Bakımda olma durumlarının Enum yapısı ile güvenli bir şekilde yönetilmesi.
 - **Akıllı Listeleme:** Kiralama yaparken sadece müsait araçların, iade yaparken sadece kiradaki araçların listelenmesi.
 - **Fatura Oluşturma:** Kiralama işlemi tamamlandığında `java.nio.file` kullanılarak müşteriye özel `.txt` formatında fatura kesilmesi.
